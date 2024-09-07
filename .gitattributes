@@ -1,0 +1,6 @@
+*.data filter=lfs diff=lfs merge=lfs -text
+*.wasm filter=lfs diff=lfs merge=lfs -text
+*.js filter=lfs diff=lfs merge=lfs -text
+*.symbols filter=lfs diff=lfs merge=lfs -text
+suitest/Build/* filter=lfs diff=lfs merge=lfs -text
+suitest/TemplateData/* filter=lfs diff=lfs merge=lfs -text
